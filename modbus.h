@@ -1,4 +1,4 @@
-/*------------------------------------------
+﻿/*------------------------------------------
    Projet  : Automate MODBUS version 2.0
    Fichier : modbus.h
    Version du fichier : 1.0
@@ -38,7 +38,7 @@ extern char SerialBuffer[MAXSERIALBUFFERLEN+1];
 extern word SerialBufferLen;
 extern boolean SerialReceved;
 
-//----- quelques raccourcis d'écriture pour Serial.print -----
+//-----  bjr quelques raccourcis d'écriture pour Serial.print -----
 #define Print(A) {Serial.print(A);}
 #define Print2(A,B) {Serial.print(A);Serial.print(B);}
 #define Print3(A,B,C) {Serial.print(A);Serial.print(B);Serial.print(C);}
